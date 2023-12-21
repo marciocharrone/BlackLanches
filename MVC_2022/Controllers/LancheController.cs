@@ -22,6 +22,7 @@ namespace LanchesMac.Controllers
                 lanches = _LancheRepository.Lanches.OrderBy(l => l.LancheId);
                 categoriaAtual = "Todos os lanches";
             }
+
             else
             {
                 //if(string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
